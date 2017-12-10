@@ -1,62 +1,53 @@
+/** reworked 2016.08 https://osworx.net */
 (function ($) {
   $.extend($.summernote.lang, {
     'de-DE': {
       font: {
         bold: 'Fett',
-        italic: 'Kursiv',
-        underline: 'Unterstreichen',
-        clear: 'Zurücksetzen',
-        height: 'Zeilenhöhe',
-        strikethrough: 'Durchgestrichen',
-        size: 'Schriftgröße'
+		italic: 'Kursiv',
+		underline: 'Unterstrichen',
+		strikethrough: 'Durchgestrichen',
+		subscript: 'Tiefgestellt',
+		superscript: 'Hochgestellt',
+		clear: 'Schriftart entfernen',
+		height: 'Zeilenhöhe',
+		name: 'Schriftart',
+		size: 'Schriftgröße'
       },
       image: {
-        image: 'Grafik',
-        insert: 'Grafik einfügen',
+        image: 'Bild',
+        insert: 'Bild einfügen',
         resizeFull: 'Originalgröße',
         resizeHalf: 'Größe 1/2',
         resizeQuarter: 'Größe 1/4',
         floatLeft: 'Linksbündig',
         floatRight: 'Rechtsbündig',
         floatNone: 'Kein Textfluss',
-        shapeRounded: 'Rahmen: Abgerundet',
-        shapeCircle: 'Rahmen: Kreisförmig',
-        shapeThumbnail: 'Rahmen: Thumbnail',
-        shapeNone: 'Kein Rahmen',
-        dragImageHere: 'Ziehen Sie ein Bild mit der Maus hierher',
-        selectFromFiles: 'Wählen Sie eine Datei aus',
-        maximumFileSize: 'Maximale Dateigröße',
-        maximumFileSizeError: 'Maximale Dateigröße überschritten',
-        url: 'Grafik URL',
-        remove: 'Grafik entfernen'
-      },
-      video: {
-        video: 'Video',
-        videoLink: 'Video Link',
-        insert: 'Video einfügen',
-        url: 'Video URL?',
-        providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion, oder Youku)'
+        dragImageHere: 'Bild mit Maus hierher ziehen',
+        selectFromFiles: 'Datei auswählen',
+        url: 'Bild-URL',
+        remove: 'Bild entfernen'
       },
       link: {
         link: 'Link',
         insert: 'Link einfügen',
         unlink: 'Link entfernen',
-        edit: 'Editieren',
+        edit: 'Bearbeiten',
         textToDisplay: 'Anzeigetext',
-        url: 'Ziel des Links?',
-        openInNewWindow: 'In einem neuen Fenster öffnen'
+        url: 'Link-URL',
+        openInNewWindow: 'In neuem Fenster öffnen'
       },
       table: {
         table: 'Tabelle'
       },
       hr: {
-        insert: 'Eine horizontale Linie einfügen'
+        insert: 'Horizontale Linie einfügen'
       },
       style: {
         style: 'Stil',
         normal: 'Normal',
         blockquote: 'Zitat',
-        pre: 'Quellcode',
+        pre: 'Code',
         h1: 'Überschrift 1',
         h2: 'Überschrift 2',
         h3: 'Überschrift 3',
@@ -83,7 +74,7 @@
         justify: 'Blocksatz'
       },
       color: {
-        recent: 'Letzte Farbe',
+        recent: 'Aktuelle Farbe',
         more: 'Mehr Farben',
         background: 'Hintergrundfarbe',
         foreground: 'Schriftfarbe',
@@ -104,7 +95,48 @@
         undo: 'Rückgängig',
         redo: 'Wiederholen'
       }
-
+	  // + OSWorX
+	  ,
+      video: {
+      	video: 'Video',
+	  	videoLink: 'Videolink',
+	  	insert: 'Video  einfügen',
+	  	url: 'Video URL',
+	  	providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion oder Youku)'
+      },
+      help: {
+        'insertParagraph': 'Neue Zeile (p einfügen)',
+        'undo': 'Rückgängig',
+        'redo': 'Wiederholen',
+        'tab': 'Tab',
+        'untab': 'Untab',
+        'bold': 'Fettschrift',
+        'italic': 'Schrägschrift',
+        'underline': 'Unterstreichen',
+        'strikethrough': 'Durchstreichen',
+        'removeFormat': 'Format entfernen',
+        'justifyLeft': 'Linksbündig',
+        'justifyCenter': 'Zentriert',
+        'justifyRight': 'Rechtsbündig',
+        'justifyFull': 'Blocksatz',
+        'insertUnorderedList': 'Unnummerierte Liste',
+        'insertOrderedList': 'Nummerierte Liste',
+        'outdent': 'Einrücken',
+        'indent': 'Nach Links rücken',
+        'formatPara': 'Aktuellen Block mit p formatieren',
+        'formatH1': 'Aktuellen Block als H1 formatieren',
+        'formatH2': 'Aktuellen Block als H2 formatieren',
+        'formatH3': 'Aktuellen Block als H3 formatieren',
+        'formatH4': 'Aktuellen Block als H4 formatieren',
+        'formatH5': 'Aktuellen Block als H5 formatieren',
+        'formatH6': 'Aktuellen Block als H6 formatieren',
+        'insertHorizontalRule': 'Horizontale Linie einfügen',
+        'linkDialog.show': 'Zeige Link Dialog'
+      },
+      specialChar: {
+        specialChar: 'SONDERZEICHEN',
+        select: 'Sonderzeichen auswählen'
+      }
     }
   });
 })(jQuery);

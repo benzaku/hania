@@ -1,23 +1,6 @@
 <?php
 // Heading
-$_['heading_title']                = 'Dashboard';
-
-// Text
-$_['text_order_total']             = 'Total Orders';
-$_['text_customer_total']          = 'Total Customers';
-$_['text_sale_total']              = 'Total Sales';
-$_['text_online_total']            = 'People Online';
-$_['text_map']                     = 'World Map';
-$_['text_sale']                    = 'Sales Analytics';
-$_['text_activity']                = 'Recent Activity';
-$_['text_recent']                  = 'Latest Orders';
-$_['text_order']                   = 'Orders';
-$_['text_customer']                = 'Customers';
-$_['text_day']                     = 'Today';
-$_['text_week']                    = 'Week';
-$_['text_month']                   = 'Month';
-$_['text_year']                    = 'Year';
-$_['text_view']                    = 'View more...';
+$_['heading_title'] = 'Dashboard';
 
 // Error
-$_['error_install']                = 'Warning: Install folder still exists and should be deleted for security reasons!';
+$_['error_install']	= '<p>Note: the Install folder still exists!<br />For security reasons either delete this folder or rename and set permissions to 0644.</p><div class="well well-sm" style="font-size: 1.1em; margin: 10px;"><p>Avoid cease and desist letters, as well as expensive punishments etc. >> <b>make your shop save!</b></p><p>Integrate current legal rules and advices with a few mouseclicks.<br />Simply with <b>LEGAL</b> - the legal module from <a href="https://osworx.net?ref=firstCall" target="_blank">OSWorX</a></p></div>';
