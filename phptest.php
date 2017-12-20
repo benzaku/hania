@@ -6,9 +6,9 @@
     <?php echo '<p>Hello World</p>';
 
     // In the variables section below, replace user and password with your own MySQL credentials as created on your server
-    $servername = "localhost";
-    $username = "weddingdress";
-    $password = "weddingdress";
+    $servername = "mysqlsvr74.world4you.com";
+    $username = "sql9410663";
+    $password = "qgs*vnn";
 
     // Create MySQL connection
     $conn = mysqli_connect($servername, $username, $password);
