@@ -3,7 +3,7 @@
 define('HTTP_SERVER', 'http://www.ohanila.com/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://www.ohanila.com/');
+define('HTTPS_SERVER', 'https://www.ohanila.com/');
 
 // DIR
 define('DIR_APPLICATION', 'catalog/');
