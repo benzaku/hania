@@ -339,3 +339,133 @@
 2017-12-20 10:53:25 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
 2017-12-20 10:53:25 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
 2017-12-20 10:53:26 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_carousel.tpl on line 6
+2017-12-20 11:04:55 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2017-12-20 11:04:55 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2017-12-20 11:04:55 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_carousel.tpl on line 6
+2017-12-20 11:12:54 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2017-12-20 11:12:54 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2017-12-20 11:12:54 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_carousel.tpl on line 6
+2017-12-20 11:13:44 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2017-12-20 11:13:44 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2017-12-20 11:14:22 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2017-12-20 11:14:22 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2017-12-20 11:14:25 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2017-12-20 11:14:25 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2017-12-20 11:22:19 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2017-12-20 11:22:19 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2017-12-20 11:22:19 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_carousel.tpl on line 6
+2017-12-20 13:32:47 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2017-12-20 13:32:47 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2017-12-20 13:42:26 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2017-12-20 13:42:26 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2017-12-20 17:36:47 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2017-12-20 17:36:47 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2017-12-21 13:37:52 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2017-12-21 13:37:52 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2017-12-21 13:38:23 - PHP Notice:  Undefined offset: 2 in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/information/contact.tpl on line 74
+2017-12-21 16:37:53 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2017-12-21 16:37:53 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2017-12-22 10:47:40 - PHP Notice:  Undefined offset: 2 in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/information/contact.tpl on line 74
+2017-12-22 10:47:43 - PHP Notice:  Undefined offset: 2 in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/information/contact.tpl on line 74
+2017-12-22 10:47:58 - PHP Notice:  Undefined offset: 2 in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/information/contact.tpl on line 74
+2017-12-22 13:59:02 - PHP Notice:  Undefined offset: 2 in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/information/contact.tpl on line 74
+2017-12-22 14:15:11 - PHP Notice:  Undefined offset: 2 in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/information/contact.tpl on line 74
+2017-12-22 14:41:46 - PHP Warning:  array_merge(): Argument #2 is not an array in /home/.sites/94/site9063801/web/system/pavothemes/widget/html.php on line 71
+2017-12-22 14:41:46 - PHP Notice:  Undefined variable: addition_cls in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/module/widgets/html.tpl on line 1
+2017-12-22 14:41:46 - PHP Notice:  Undefined variable: show_title in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/module/widgets/html.tpl on line 3
+2017-12-22 14:41:46 - PHP Warning:  array_merge(): Argument #2 is not an array in /home/.sites/94/site9063801/web/system/pavothemes/widget/html.php on line 71
+2017-12-22 14:41:46 - PHP Notice:  Undefined variable: addition_cls in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/module/widgets/html.tpl on line 1
+2017-12-22 14:41:46 - PHP Notice:  Undefined variable: show_title in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/module/widgets/html.tpl on line 3
+2017-12-22 14:48:16 - PHP Warning:  array_merge(): Argument #2 is not an array in /home/.sites/94/site9063801/web/system/pavothemes/widget/html.php on line 71
+2017-12-22 14:48:16 - PHP Notice:  Undefined variable: addition_cls in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/module/widgets/html.tpl on line 1
+2017-12-22 14:48:16 - PHP Notice:  Undefined variable: show_title in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/module/widgets/html.tpl on line 3
+2017-12-22 14:48:17 - PHP Warning:  array_merge(): Argument #2 is not an array in /home/.sites/94/site9063801/web/system/pavothemes/widget/html.php on line 71
+2017-12-22 14:48:17 - PHP Notice:  Undefined variable: addition_cls in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/module/widgets/html.tpl on line 1
+2017-12-22 14:48:17 - PHP Notice:  Undefined variable: show_title in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/module/widgets/html.tpl on line 3
+2017-12-22 14:55:15 - PHP Warning:  array_merge(): Argument #2 is not an array in /home/.sites/94/site9063801/web/system/pavothemes/widget/html.php on line 71
+2017-12-22 14:55:15 - PHP Notice:  Undefined variable: addition_cls in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/module/widgets/html.tpl on line 1
+2017-12-22 14:55:15 - PHP Notice:  Undefined variable: show_title in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/module/widgets/html.tpl on line 3
+2017-12-22 14:55:15 - PHP Warning:  array_merge(): Argument #2 is not an array in /home/.sites/94/site9063801/web/system/pavothemes/widget/html.php on line 71
+2017-12-22 14:55:15 - PHP Notice:  Undefined variable: addition_cls in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/module/widgets/html.tpl on line 1
+2017-12-22 14:55:15 - PHP Notice:  Undefined variable: show_title in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/module/widgets/html.tpl on line 3
+2017-12-22 14:56:06 - PHP Warning:  array_merge(): Argument #2 is not an array in /home/.sites/94/site9063801/web/system/pavothemes/widget/html.php on line 71
+2017-12-22 14:56:06 - PHP Notice:  Undefined variable: addition_cls in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/module/widgets/html.tpl on line 1
+2017-12-22 14:56:06 - PHP Notice:  Undefined variable: show_title in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/module/widgets/html.tpl on line 3
+2017-12-22 14:56:06 - PHP Warning:  array_merge(): Argument #2 is not an array in /home/.sites/94/site9063801/web/system/pavothemes/widget/html.php on line 71
+2017-12-22 14:56:06 - PHP Notice:  Undefined variable: addition_cls in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/module/widgets/html.tpl on line 1
+2017-12-22 14:56:06 - PHP Notice:  Undefined variable: show_title in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/module/widgets/html.tpl on line 3
+2017-12-22 18:14:03 - PHP Notice:  Undefined offset: 2 in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/information/contact.tpl on line 74
+2017-12-22 18:15:21 - PHP Notice:  Undefined offset: 2 in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/information/contact.tpl on line 74
+2017-12-23 15:43:29 - PHP Notice:  Undefined offset: 2 in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/information/contact.tpl on line 74
+2017-12-23 17:18:05 - PHP Notice:  Undefined offset: 2 in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/information/contact.tpl on line 74
+2017-12-23 17:33:14 - PHP Notice:  Undefined index: email in /home/.sites/94/site9063801/web/catalog/controller/module/pavnewsletter.php on line 76
+2017-12-23 17:33:14 - PHP Notice:  Undefined index: email in /home/.sites/94/site9063801/web/catalog/controller/module/pavnewsletter.php on line 78
+2017-12-23 17:33:14 - PHP Notice:  Undefined index: email in /home/.sites/94/site9063801/web/catalog/controller/module/pavnewsletter.php on line 79
+2017-12-23 19:19:10 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_carousel.tpl on line 6
+2017-12-23 19:22:56 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_carousel.tpl on line 6
+2017-12-23 19:26:44 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_carousel.tpl on line 6
+2017-12-23 19:34:18 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_carousel.tpl on line 6
+2017-12-23 19:49:34 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_carousel.tpl on line 6
+2017-12-23 19:53:12 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_carousel.tpl on line 6
+2017-12-23 19:57:00 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_carousel.tpl on line 6
+2017-12-23 20:00:51 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_carousel.tpl on line 6
+2017-12-23 20:04:34 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_carousel.tpl on line 6
+2017-12-23 20:12:07 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_carousel.tpl on line 6
+2017-12-23 20:27:15 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_carousel.tpl on line 6
+2017-12-23 20:31:03 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_carousel.tpl on line 6
+2017-12-23 20:34:50 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_carousel.tpl on line 6
+2017-12-23 20:42:36 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_carousel.tpl on line 6
+2017-12-23 21:01:19 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_carousel.tpl on line 6
+2017-12-23 21:05:06 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_carousel.tpl on line 6
+2017-12-23 21:08:55 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_carousel.tpl on line 6
+2017-12-23 22:02:24 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_carousel.tpl on line 6
+2017-12-23 22:02:56 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_carousel.tpl on line 6
+2017-12-23 22:25:25 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_carousel.tpl on line 6
+2017-12-23 22:51:09 - PHP Notice:  Undefined property: Template\Basic::$registry in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/footer/default.tpl on line 2
+2017-12-23 22:51:11 - PHP Notice:  Undefined property: Template\Basic::$registry in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/footer/default.tpl on line 2
+2017-12-23 22:51:12 - PHP Notice:  Undefined property: Template\Basic::$registry in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/footer/default.tpl on line 2
+2017-12-23 22:51:13 - PHP Notice:  Undefined property: Template\Basic::$registry in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/footer/default.tpl on line 2
+2017-12-23 22:51:14 - PHP Notice:  Undefined property: Template\Basic::$registry in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/footer/default.tpl on line 2
+2017-12-23 22:51:14 - PHP Notice:  Undefined property: Template\Basic::$registry in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/footer/default.tpl on line 2
+2017-12-23 22:51:14 - PHP Notice:  Undefined property: Template\Basic::$registry in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/footer/default.tpl on line 2
+2017-12-23 22:51:16 - PHP Notice:  Undefined property: Template\Basic::$registry in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/footer/default.tpl on line 2
+2017-12-23 22:52:06 - PHP Notice:  Undefined property: Template\Basic::$registry in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/footer/default.tpl on line 2
+2017-12-23 22:52:12 - PHP Notice:  Undefined property: Template\Basic::$registry in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/footer/default.tpl on line 2
+2017-12-23 22:52:46 - PHP Notice:  Undefined property: Template\Basic::$registry in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/footer/default.tpl on line 2
+2017-12-23 22:53:00 - PHP Notice:  Undefined property: Template\Basic::$registry in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/footer/default.tpl on line 2
+2017-12-23 22:54:54 - PHP Notice:  Undefined property: Template\Basic::$registry in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/footer/default.tpl on line 2
+2017-12-23 22:55:29 - PHP Notice:  Undefined property: Template\Basic::$registry in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/footer/default.tpl on line 2
+2017-12-23 22:55:30 - PHP Notice:  Undefined property: Template\Basic::$registry in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/footer/default.tpl on line 2
+2017-12-23 22:55:31 - PHP Notice:  Undefined property: Template\Basic::$registry in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/footer/default.tpl on line 2
+2017-12-23 22:55:52 - PHP Notice:  Undefined property: Template\Basic::$registry in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/footer/default.tpl on line 2
+2017-12-23 22:56:00 - PHP Notice:  Undefined property: Template\Basic::$registry in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/footer/default.tpl on line 2
+2017-12-23 22:58:37 - PHP Notice:  Undefined property: Template\Basic::$registry in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/footer/default.tpl on line 2
+2017-12-23 22:58:40 - PHP Notice:  Undefined property: Template\Basic::$registry in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/footer/default.tpl on line 2
+2017-12-23 22:58:50 - PHP Notice:  Undefined property: Template\Basic::$registry in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/footer/default.tpl on line 2
+2017-12-23 23:02:56 - PHP Notice:  Undefined property: Template\Basic::$registry in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/footer/default.tpl on line 2
+2017-12-23 23:05:03 - PHP Notice:  Undefined property: Template\Basic::$registry in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/footer/default.tpl on line 2
+2017-12-23 23:13:40 - PHP Notice:  Undefined property: Template\Basic::$registry in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/footer/default.tpl on line 2
+2017-12-23 23:16:55 - PHP Notice:  Undefined property: Template\Basic::$registry in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/footer/default.tpl on line 2
+2017-12-23 23:16:58 - PHP Notice:  Undefined property: Template\Basic::$registry in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/footer/default.tpl on line 2
+2017-12-23 23:21:16 - PHP Notice:  Undefined property: Template\Basic::$registry in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/footer/default.tpl on line 2
+2017-12-25 11:21:16 - PHP Warning:  ftp_login(): Login authentication failed in /home/.sites/94/site9063801/web/admin/controller/extension/installer.php on line 295
+2017-12-28 0:50:09 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_carousel.tpl on line 6
+2017-12-28 22:33:33 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_carousel.tpl on line 6
+2017-12-30 16:08:54 - Unable to create Paypal session{"TIMESTAMP":"2017-12-30T15:08:54Z","CORRELATIONID":"a3a8d5e8d58d","ACK":"Failure","VERSION":"109.0","BUILD":"40680762","L_ERRORCODE0":"10002","L_SHORTMESSAGE0":"Security error","L_LONGMESSAGE0":"Security header is not valid","L_SEVERITYCODE0":"Error"}
+2017-12-30 16:09:05 - Unable to create Paypal session{"TIMESTAMP":"2017-12-30T15:09:05Z","CORRELATIONID":"e1fd79ad37d2c","ACK":"Failure","VERSION":"109.0","BUILD":"40680762","L_ERRORCODE0":"10002","L_SHORTMESSAGE0":"Security error","L_LONGMESSAGE0":"Security header is not valid","L_SEVERITYCODE0":"Error"}
+2017-12-30 16:09:35 - Unable to create Paypal session{"TIMESTAMP":"2017-12-30T15:09:35Z","CORRELATIONID":"5b778dfc3dd31","ACK":"Failure","VERSION":"109.0","BUILD":"40680762","L_ERRORCODE0":"10002","L_SHORTMESSAGE0":"Security error","L_LONGMESSAGE0":"Security header is not valid","L_SEVERITYCODE0":"Error"}
+2017-12-30 16:10:52 - Unable to create Paypal session{"TIMESTAMP":"2017-12-30T15:10:51Z","CORRELATIONID":"a4924b21c9f51","ACK":"Failure","VERSION":"109.0","BUILD":"40680762","L_ERRORCODE0":"10002","L_SHORTMESSAGE0":"Security error","L_LONGMESSAGE0":"Security header is not valid","L_SEVERITYCODE0":"Error"}
+2017-12-30 16:31:12 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2017-12-30 16:31:12 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2017-12-30 16:33:43 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2017-12-30 16:33:43 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2017-12-30 16:33:49 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2017-12-30 16:33:49 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2017-12-30 16:33:49 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2017-12-30 16:33:49 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2017-12-30 16:33:52 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2017-12-30 16:33:52 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2017-12-30 16:51:14 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2017-12-30 16:51:14 - PHP Warning:  A non-numeric value encountered in /home/.sites/94/site9063801/web/catalog/view/theme/pav_krstore/template/common/products_module.tpl on line 8
+2018-01-02 10:54:45 - PHP Notice:  Undefined index: g-recaptcha-response in /home/.sites/94/site9063801/web/catalog/controller/captcha/google_captcha.php on line 26
+2018-01-02 10:55:38 - PHP Notice:  Undefined index: g-recaptcha-response in /home/.sites/94/site9063801/web/catalog/controller/captcha/google_captcha.php on line 26

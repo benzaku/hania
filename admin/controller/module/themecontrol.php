@@ -135,9 +135,9 @@ class ControllerModuleThemeControl extends Controller {
 						'product_zoomlensshape' => 'normal',		
 						'product_zoomgallery'   => 0,		
 						'show_swap_image'			=> 0,	
-						'location_address' => '79-99 Beaver Street, New York, NY 10005, USA',
-						'location_latitude' => '40.705423',
-						'location_longitude' => '-74.008616',
+						'location_address' => 'Salurner Straße 16, 6020, Innsbruck',
+						'location_latitude' => '47.2630929',
+						'location_longitude' => '11.3968188',
 						//end edit code
 						'contact_customhtml'    => '',
 						'enable_compress_css'   => 0,

@@ -22,50 +22,15 @@
 			</div>
 			<div class="col-right col-lg-9 col-md-9 col-sm-8 col-xs-12">
 				<div class="row">
-					<div class="column col-lg-3 col-md-3 col-sm-6 col-xs-12 space-15 space-top-15">
-						<div class="panel-heading">
-							<h4 class="panel-title"><?php echo $text_extra; ?></h4>
-						</div>
-						<ul class="list-unstyled">
-						  <li><a href="<?php echo $manufacturer; ?>"><?php echo $text_manufacturer; ?></a></li>
-						  <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-						  <li><a href="<?php echo $affiliate; ?>"><?php echo $text_affiliate; ?></a></li>
-						  <li><a href="<?php echo $special; ?>"><?php echo $text_special; ?></a></li>
-						</ul>
-					</div>
-					<div class="column col-lg-3 col-md-3 col-sm-6 col-xs-12 space-15 space-top-15">
-						<div class="panel-heading">
-							<h4 class="panel-title"><?php echo $text_account; ?></h4>
-						</div>
-						<ul class="list-unstyled">
-							<li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
-							<li><a href="<?php echo $order; ?>"><?php echo $text_order; ?></a></li>
-							<li><a href="<?php echo $wishlist; ?>"><?php echo $text_wishlist; ?></a></li>
-							<li><a href="<?php echo $newsletter; ?>"><?php echo $text_newsletter; ?></a></li>
-						</ul>
-					</div>
 					<?php if ($informations) { ?>
-						<div class="column col-lg-3 col-md-3 col-sm-6 col-xs-12 space-15 space-top-15">
-							<div class="panel-heading">
-								<h4 class="panel-title"><?php echo $text_information; ?></h4>
+						<?php foreach ($informations as $information) { ?>
+							<div class="column col-lg-3 col-md-3 col-sm-6 col-xs-12 space-15 space-top-15">
+								<div class="panel-heading">
+									<h4 class="panel-title"><a href="<?php echo $information['href']; ?>"><?php echo $information['title']; ?></a></h4>
+								</div>
 							</div>
-							<ul class="list-unstyled">
-								<?php foreach ($informations as $information) { ?>
-									<li><a href="<?php echo $information['href']; ?>"><?php echo $information['title']; ?></a></li>
-								<?php } ?>
-							</ul>
-						</div>
+						<?php } ?>
 					<?php } ?>
-					<div class="column col-lg-3 col-md-3 col-sm-6 col-xs-12 space-15 space-top-15">
-						<div class="panel-heading">
-							<h4 class="panel-title"><?php echo $text_service; ?></h4>
-						</div>
-						<ul class="list-unstyled">
-							<li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
-							<li><a href="<?php echo $return; ?>"><?php echo $text_return; ?></a></li>
-							<li><a href="<?php echo $sitemap; ?>"><?php echo $text_sitemap; ?></a></li>
-						</ul>
-					</div>
 				</div>
 				<div class="copyright col-lg-12 col-md-12 col-sm-12 col-xs-12 clearfix space-top-10">
 					<div class="row">
@@ -80,7 +45,7 @@
 							</p>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-right">
-							<img alt="" src="image/catalog/demo/payment.png" />
+							<img alt="" src="image/catalog/demo/ohanila-logo-footer.png" />
 						</div>
 					</div>
 				</div>

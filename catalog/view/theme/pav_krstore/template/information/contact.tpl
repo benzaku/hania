@@ -197,13 +197,13 @@
 </div>
 
  <?php // Jquery googlemap api v3?>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&language=en"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&language=en&key=AIzaSyDRdZZO0rLYhumRLu-9MawWdpKmQXdUs10"></script>
     <script type="text/javascript" src="catalog/view/javascript/gmap/gmap3.min.js"></script>
     <script type="text/javascript" src="catalog/view/javascript/gmap/gmap3.infobox.js"></script>
     <script type="text/javascript">
         var mapDiv, map, infobox;
-        var lat = <?php echo isset($themeConfig['location_latitude'])?$themeConfig['location_latitude']:'40.705423'; ?>;
-        var lon = <?php echo isset($themeConfig['location_longitude'])?$themeConfig['location_longitude']:'-74.008616'; ?>;
+        var lat = '47.2630929';
+        var lon = '11.3968188';
         jQuery(document).ready(function($) {
             mapDiv = $("#contact-map");
             mapDiv.height(400).gmap3({
@@ -215,7 +215,7 @@
                 },
                 marker:{
                     values:[
-                        {latLng:[lat, lon], data:"<?php echo isset($themeConfig['location_address'])?$themeConfig['location_address']:'79-99 Beaver Street, New York, NY 10005, USA'; ?>"},
+                        {latLng:[lat, lon], data:"'Salurner Straße 16, 6020, Innsbruck'"},
                     ],
                     options:{
                         draggable: false

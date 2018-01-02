@@ -1,0 +1,794 @@
+2017-12-26 21:44:20 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 34
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+LINE: 92
+LINE: 104
+LINE: 142
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 35
+LINE: 41
+LINE: 47
+FILE: system/library/template/basic.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+----------------------------------------------------------------
+MOD: Bugs fix Opencart 2.2.0.0
+FILE: catalog/controller/account/address.php
+CODE: !empty($custom_field['validation'] && $custom_field['location'] == 'address'))
+LINE: 521
+FILE: catalog/controller/account/voucher.php
+CODE: sprintf($this->language->get('text_for'), $this->currency->format($this->currency->convert($this->request->post['amount'], $this->session->data['currency'], $this->config->get('config_currency'))), $this->request->post['to_name']),
+LINE: 15
+FILE: catalog/controller/module/amazon_login.php
+CODE: $user = $this->model_payment_amazon_login_pay->getUserInfo($this->request->get['access_token']);
+LINE: 55
+FILE: admin/controller/customer/customer.php
+CODE: !empty($custom_field['validation'] && $custom_field['location'] == 'address'))
+LINE: 1104
+FILE: admin/controller/sale/order.php
+CODE: $this->request->server['HTTPS'] ? HTTPS_CATALOG : HTTP_CATALOG
+LINE: 317
+LINE: 480
+LINE: 569
+CODE: 'name'     => $this->language->get('text_default'),
+LINE: 631
+CODE: str_replace("http", "https", $order_info['store_url'])
+LINE: 849
+FILE: catalog/view/theme/default/template/payment/pp_standard.tpl
+CODE: <input type="hidden" name="no_shipping" value="1" />
+LINE: 39
+FILE: admin/controller/openbay/amazon.php
+CODE: $this->url->link('openbay/amazon/itemlinks', 'token=' . $this->session->data['token'], true),
+LINE: 393
+FILE: admin/controller/openbay/fba.php
+CODE: $this->session->data['token'], 'SSL')
+LINE: 37
+LINE: 41
+LINE: 45
+LINE: 58
+LINE: 60
+LINE: 61
+LINE: 91
+LINE: 96
+LINE: 101
+LINE: 106
+LINE: 110
+LINE: 111
+LINE: 272
+LINE: 277
+LINE: 282
+LINE: 335
+LINE: 340
+LINE: 345
+LINE: 350
+LINE: 379
+LINE: 412
+LINE: 456
+LINE: 496
+LINE: 609
+LINE: 614
+LINE: 619
+LINE: 624
+LINE: 676
+LINE: 720
+LINE: 742
+LINE: 747
+LINE: 752
+LINE: 757
+LINE: 762
+FILE: admin/controller/payment/cardinity.php
+CODE: $this->response->redirect($this->url->link('extension/payment', 'token=' . $this->session->data['token']));
+LINE: 16
+FILE: admin/controller/payment/eway.php
+CODE: $reason = $this->config->get('text_unknown_failure');
+LINE: 297
+LINE: 353
+CODE: $json['message'] = $this->config->get('text_refund_failed') . $reason;
+LINE: 304
+CODE: $json['message'] = $this->config->get('text_capture_failed') . $reason;
+LINE: 360
+FILE: admin/controller/payment/laybuy.php
+CODE: if (!$this->error) {
+LINE: 1237
+FILE: admin/controller/payment/pp_payflow_iframe.php
+CODE: $this->url->link('payment/pp_payflow', 'token=' . $this->session->data['token'], true)
+LINE: 110
+CODE: this->url->link('payment/pp_payflow_iframe/refund', 'transaction_reference=' . $result['PNREF'] . '&token=' . $this->session->data['token'])
+LINE: 372
+CODE: $this->url->link('payment/pp_payflow_iframe/refund', 'transaction_reference=' . $transaction['transaction_reference'] . '&token=' . $this->session->data['token'])
+LINE: 497
+LINE: 505
+FILE: admin/controller/analytics/google_analytics.php
+CODE: $data['action'] = $this->url->link('analytics/google_analytics', 'token=' . $this->session->data['token'], true);
+LINE: 61
+CODE: $data['google_analytics_code'] = $this->config->get('google_analytics_code');
+LINE: 70
+CODE: $data['google_analytics_status'] = $this->config->get('google_analytics_status');
+LINE: 76
+FILE: admin/view/template/feed/google_base.tpl
+CODE: index.php?route=feed/google_base/addcategory&token=
+LINE: 129
+CODE: index.php?route=feed/google_base/removecategory&token=
+LINE: 167
+FILE: admin/view/template/fraud/ip.tpl
+CODE: index.php?route=fraud/ip/addip&token=
+LINE: 98
+CODE: index.php?route=fraud/ip/removeip&token=
+LINE: 133
+FILE: admin/view/template/marketing/affiliate_form.tpl
+CODE: index.php?route=marketing/affiliate/addtransaction&token=
+LINE: 395
+FILE: admin/view/template/openbay/amazonus_bulk_listing.tpl
+CODE: index.php?route=openbay/amazonus/dobulksearch&token=
+LINE: 195
+FILE: admin/view/template/catalog/filter_form.tpl
+CODE: <?php echo $entry_name ?>
+LINE: 49
+LINE: 61
+LINE: 92
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $manufacturer ?>
+LINE: 326
+FILE: admin/view/template/catalog/recurring_form.tpl
+CODE: <?php echo $text_disabled ?>
+LINE: 129
+LINE: 132
+FILE: admin/view/template/catalog/recurring_list.tpl
+CODE: <?php echo $column_action ?>
+LINE: 48
+CODE: <?php echo $recurring['name'] ?>
+LINE: 60
+CODE: <?php echo $recurring['sort_order'] ?>
+LINE: 61
+FILE: admin/view/template/customer/custom_field_form.tpl
+CODE: <?php echo $entry_validation ?>
+LINE: 124
+CODE: <?php echo $validation ?>
+LINE: 126
+FILE: admin/view/template/customer/customer_form.tpl
+CODE: <?php echo $address_row ?>
+LINE: 1145
+LINE: 1146
+LINE: 1147
+LINE: 1150
+LINE: 1151
+LINE: 1154
+LINE: 1155
+FILE: admin/view/template/extension/modification.tpl
+CODE: <?php echo $log ?>
+LINE: 116
+CODE: <?php echo $button_clear ?>
+LINE: 118
+----------------------------------------------------------------
+MOD: C2 Multiupload files light OSMOD
+FILE: admin/view/template/common/filemanager.tpl
+CODE: $('body').prepend('<form enctype="multipart/form-data" id="form-upload" style="display: none;"><input type="file" name="file" value="" /></form>');
+LINE: 116
+CODE: $('#form-upload input[name=\'file\']').trigger('click');
+LINE: 120
+CODE: if ($('#form-upload input[name=\'file\']').val() != '') {
+LINE: 129
+CODE: <button type="button" data-toggle="tooltip" title="<?php echo $button_delete; ?>" id="button-delete" class="btn btn-danger"><i class="fa fa-trash-o"></i></button>
+LINE: 17
+CODE: $('#button-parent').on('click', function(e) {
+LINE: 80
+CODE: $('a.directory').on('click', function(e) {
+LINE: 68
+CODE: <?php if ($target) { ?>
+LINE: 171
+CODE: $('a.thumbnail').on('click', function(e) {
+LINE: 260
+FILE: admin/controller/common/filemanager.php
+CODE: $filter_name = rtrim(str_replace('*', '', $this->request->get['filter_name']), '/');
+NOT FOUND!
+CODE: if (substr(str_replace('\\', '/', realpath($directory . '/' . $filter_name)), 0, strlen(DIR_IMAGE . 'catalog')) == DIR_IMAGE . 'catalog') {
+NOT FOUND!
+CODE: $data['pagination'] = $pagination->render();
+LINE: 197
+CODE: public function index() {
+LINE: 2
+CODE: 'thumb' => $this->model_tool_image->resize(utf8_substr($image, utf8_strlen(DIR_IMAGE)), 100, 100),
+LINE: 114
+CODE: 'href'  => $server . 'image/' . utf8_substr($image, utf8_strlen(DIR_IMAGE))
+LINE: 120
+CODE: if (!empty($this->request->files['file']['name']) && is_file($this->request->files['file']['tmp_name'])) {
+LINE: 364
+----------------------------------------------------------------
+MOD: OSWorX - German Translation / Dt. Übersetzung
+----------------------------------------------------------------
+MOD: UltraImageManager
+CODE: <?php echo $footer; ?>
+LINE: 1490
+FILE: admin/controller/catalog/product.php
+CODE: $data['tab_openbay'] = $this->language->get('tab_openbay');
+LINE: 643
+CODE: <button type="button" data-toggle="tooltip" title="<?php echo $button_delete; ?>" id="button-delete" class="btn btn-danger"><i class="fa fa-trash-o"></i></button>
+LINE: 15
+CODE: <div class="modal-dialog modal-lg">
+LINE: 0
+CODE: <input type="checkbox" name="path[]" value="<?php echo $image['path']; ?>" />
+LINE: 39
+LINE: 45
+CODE: <?php foreach (array_chunk($images, 4) as $image) { ?>
+LINE: 32
+CODE: <div class="col-sm-3 text-center">
+LINE: 35
+CODE: <?php echo $image['name']; ?></label>
+LINE: 43
+LINE: 52
+CODE: $('a.directory').on('click', function(e) {
+LINE: 284
+CODE: $('.pagination a').on('click', function(e) {
+LINE: 315
+CODE: $('#button-parent').on('click', function(e) {
+LINE: 329
+FILE: admin/view/javascript/common.js
+CODE: $(document).delegate('a[data-toggle=\'image\']', 'click', function(e) {
+LINE: 170
+CODE: $images = array_splice($images, ($page - 1) * 16, 16);
+LINE: 82
+CODE: $pagination->limit = 16;
+LINE: 229
+CODE: $directory = rtrim(DIR_IMAGE . 'catalog/' . str_replace(array('../', '..\\', '..'), '', $this->request->get['directory']), '/');
+LINE: 50
+LINE: 259
+LINE: 441
+----------------------------------------------------------------
+2017-12-26 21:48:29 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 34
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+LINE: 92
+LINE: 104
+LINE: 142
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 35
+LINE: 41
+LINE: 47
+FILE: system/library/template/basic.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+----------------------------------------------------------------
+MOD: Bugs fix Opencart 2.2.0.0
+FILE: catalog/controller/account/address.php
+CODE: !empty($custom_field['validation'] && $custom_field['location'] == 'address'))
+LINE: 521
+FILE: catalog/controller/account/voucher.php
+CODE: sprintf($this->language->get('text_for'), $this->currency->format($this->currency->convert($this->request->post['amount'], $this->session->data['currency'], $this->config->get('config_currency'))), $this->request->post['to_name']),
+LINE: 15
+FILE: catalog/controller/module/amazon_login.php
+CODE: $user = $this->model_payment_amazon_login_pay->getUserInfo($this->request->get['access_token']);
+LINE: 55
+FILE: admin/controller/customer/customer.php
+CODE: !empty($custom_field['validation'] && $custom_field['location'] == 'address'))
+LINE: 1104
+FILE: admin/controller/sale/order.php
+CODE: $this->request->server['HTTPS'] ? HTTPS_CATALOG : HTTP_CATALOG
+LINE: 317
+LINE: 480
+LINE: 569
+CODE: 'name'     => $this->language->get('text_default'),
+LINE: 631
+CODE: str_replace("http", "https", $order_info['store_url'])
+LINE: 849
+FILE: catalog/view/theme/default/template/payment/pp_standard.tpl
+CODE: <input type="hidden" name="no_shipping" value="1" />
+LINE: 39
+FILE: admin/controller/openbay/amazon.php
+CODE: $this->url->link('openbay/amazon/itemlinks', 'token=' . $this->session->data['token'], true),
+LINE: 393
+FILE: admin/controller/openbay/fba.php
+CODE: $this->session->data['token'], 'SSL')
+LINE: 37
+LINE: 41
+LINE: 45
+LINE: 58
+LINE: 60
+LINE: 61
+LINE: 91
+LINE: 96
+LINE: 101
+LINE: 106
+LINE: 110
+LINE: 111
+LINE: 272
+LINE: 277
+LINE: 282
+LINE: 335
+LINE: 340
+LINE: 345
+LINE: 350
+LINE: 379
+LINE: 412
+LINE: 456
+LINE: 496
+LINE: 609
+LINE: 614
+LINE: 619
+LINE: 624
+LINE: 676
+LINE: 720
+LINE: 742
+LINE: 747
+LINE: 752
+LINE: 757
+LINE: 762
+FILE: admin/controller/payment/cardinity.php
+CODE: $this->response->redirect($this->url->link('extension/payment', 'token=' . $this->session->data['token']));
+LINE: 16
+FILE: admin/controller/payment/eway.php
+CODE: $reason = $this->config->get('text_unknown_failure');
+LINE: 297
+LINE: 353
+CODE: $json['message'] = $this->config->get('text_refund_failed') . $reason;
+LINE: 304
+CODE: $json['message'] = $this->config->get('text_capture_failed') . $reason;
+LINE: 360
+FILE: admin/controller/payment/laybuy.php
+CODE: if (!$this->error) {
+LINE: 1237
+FILE: admin/controller/payment/pp_payflow_iframe.php
+CODE: $this->url->link('payment/pp_payflow', 'token=' . $this->session->data['token'], true)
+LINE: 110
+CODE: this->url->link('payment/pp_payflow_iframe/refund', 'transaction_reference=' . $result['PNREF'] . '&token=' . $this->session->data['token'])
+LINE: 372
+CODE: $this->url->link('payment/pp_payflow_iframe/refund', 'transaction_reference=' . $transaction['transaction_reference'] . '&token=' . $this->session->data['token'])
+LINE: 497
+LINE: 505
+FILE: admin/controller/analytics/google_analytics.php
+CODE: $data['action'] = $this->url->link('analytics/google_analytics', 'token=' . $this->session->data['token'], true);
+LINE: 61
+CODE: $data['google_analytics_code'] = $this->config->get('google_analytics_code');
+LINE: 70
+CODE: $data['google_analytics_status'] = $this->config->get('google_analytics_status');
+LINE: 76
+FILE: admin/view/template/feed/google_base.tpl
+CODE: index.php?route=feed/google_base/addcategory&token=
+LINE: 129
+CODE: index.php?route=feed/google_base/removecategory&token=
+LINE: 167
+FILE: admin/view/template/fraud/ip.tpl
+CODE: index.php?route=fraud/ip/addip&token=
+LINE: 98
+CODE: index.php?route=fraud/ip/removeip&token=
+LINE: 133
+FILE: admin/view/template/marketing/affiliate_form.tpl
+CODE: index.php?route=marketing/affiliate/addtransaction&token=
+LINE: 395
+FILE: admin/view/template/openbay/amazonus_bulk_listing.tpl
+CODE: index.php?route=openbay/amazonus/dobulksearch&token=
+LINE: 195
+FILE: admin/view/template/catalog/filter_form.tpl
+CODE: <?php echo $entry_name ?>
+LINE: 49
+LINE: 61
+LINE: 92
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $manufacturer ?>
+LINE: 326
+FILE: admin/view/template/catalog/recurring_form.tpl
+CODE: <?php echo $text_disabled ?>
+LINE: 129
+LINE: 132
+FILE: admin/view/template/catalog/recurring_list.tpl
+CODE: <?php echo $column_action ?>
+LINE: 48
+CODE: <?php echo $recurring['name'] ?>
+LINE: 60
+CODE: <?php echo $recurring['sort_order'] ?>
+LINE: 61
+FILE: admin/view/template/customer/custom_field_form.tpl
+CODE: <?php echo $entry_validation ?>
+LINE: 124
+CODE: <?php echo $validation ?>
+LINE: 126
+FILE: admin/view/template/customer/customer_form.tpl
+CODE: <?php echo $address_row ?>
+LINE: 1145
+LINE: 1146
+LINE: 1147
+LINE: 1150
+LINE: 1151
+LINE: 1154
+LINE: 1155
+FILE: admin/view/template/extension/modification.tpl
+CODE: <?php echo $log ?>
+LINE: 116
+CODE: <?php echo $button_clear ?>
+LINE: 118
+----------------------------------------------------------------
+MOD: C2 Multiupload files light OSMOD
+FILE: admin/view/template/common/filemanager.tpl
+CODE: $('body').prepend('<form enctype="multipart/form-data" id="form-upload" style="display: none;"><input type="file" name="file" value="" /></form>');
+LINE: 116
+CODE: $('#form-upload input[name=\'file\']').trigger('click');
+LINE: 120
+CODE: if ($('#form-upload input[name=\'file\']').val() != '') {
+LINE: 129
+CODE: <button type="button" data-toggle="tooltip" title="<?php echo $button_delete; ?>" id="button-delete" class="btn btn-danger"><i class="fa fa-trash-o"></i></button>
+LINE: 17
+CODE: $('#button-parent').on('click', function(e) {
+LINE: 80
+CODE: $('a.directory').on('click', function(e) {
+LINE: 68
+CODE: <?php if ($target) { ?>
+LINE: 171
+CODE: $('a.thumbnail').on('click', function(e) {
+LINE: 260
+FILE: admin/controller/common/filemanager.php
+CODE: $filter_name = rtrim(str_replace('*', '', $this->request->get['filter_name']), '/');
+NOT FOUND!
+CODE: if (substr(str_replace('\\', '/', realpath($directory . '/' . $filter_name)), 0, strlen(DIR_IMAGE . 'catalog')) == DIR_IMAGE . 'catalog') {
+NOT FOUND!
+CODE: $data['pagination'] = $pagination->render();
+LINE: 197
+CODE: public function index() {
+LINE: 2
+CODE: 'thumb' => $this->model_tool_image->resize(utf8_substr($image, utf8_strlen(DIR_IMAGE)), 100, 100),
+LINE: 114
+CODE: 'href'  => $server . 'image/' . utf8_substr($image, utf8_strlen(DIR_IMAGE))
+LINE: 120
+CODE: if (!empty($this->request->files['file']['name']) && is_file($this->request->files['file']['tmp_name'])) {
+LINE: 364
+----------------------------------------------------------------
+MOD: OSWorX - German Translation / Dt. Übersetzung
+----------------------------------------------------------------
+2017-12-28 23:34:08 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 34
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+LINE: 92
+LINE: 104
+LINE: 142
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 35
+LINE: 41
+LINE: 47
+FILE: system/library/template/basic.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+----------------------------------------------------------------
+MOD: Bugs fix Opencart 2.2.0.0
+FILE: catalog/controller/account/address.php
+CODE: !empty($custom_field['validation'] && $custom_field['location'] == 'address'))
+LINE: 521
+FILE: catalog/controller/account/voucher.php
+CODE: sprintf($this->language->get('text_for'), $this->currency->format($this->currency->convert($this->request->post['amount'], $this->session->data['currency'], $this->config->get('config_currency'))), $this->request->post['to_name']),
+LINE: 15
+FILE: catalog/controller/module/amazon_login.php
+CODE: $user = $this->model_payment_amazon_login_pay->getUserInfo($this->request->get['access_token']);
+LINE: 55
+FILE: admin/controller/customer/customer.php
+CODE: !empty($custom_field['validation'] && $custom_field['location'] == 'address'))
+LINE: 1104
+FILE: admin/controller/sale/order.php
+CODE: $this->request->server['HTTPS'] ? HTTPS_CATALOG : HTTP_CATALOG
+LINE: 317
+LINE: 480
+LINE: 569
+CODE: 'name'     => $this->language->get('text_default'),
+LINE: 631
+CODE: str_replace("http", "https", $order_info['store_url'])
+LINE: 849
+FILE: catalog/view/theme/default/template/payment/pp_standard.tpl
+CODE: <input type="hidden" name="no_shipping" value="1" />
+LINE: 39
+FILE: admin/controller/openbay/amazon.php
+CODE: $this->url->link('openbay/amazon/itemlinks', 'token=' . $this->session->data['token'], true),
+LINE: 393
+FILE: admin/controller/openbay/fba.php
+CODE: $this->session->data['token'], 'SSL')
+LINE: 37
+LINE: 41
+LINE: 45
+LINE: 58
+LINE: 60
+LINE: 61
+LINE: 91
+LINE: 96
+LINE: 101
+LINE: 106
+LINE: 110
+LINE: 111
+LINE: 272
+LINE: 277
+LINE: 282
+LINE: 335
+LINE: 340
+LINE: 345
+LINE: 350
+LINE: 379
+LINE: 412
+LINE: 456
+LINE: 496
+LINE: 609
+LINE: 614
+LINE: 619
+LINE: 624
+LINE: 676
+LINE: 720
+LINE: 742
+LINE: 747
+LINE: 752
+LINE: 757
+LINE: 762
+FILE: admin/controller/payment/cardinity.php
+CODE: $this->response->redirect($this->url->link('extension/payment', 'token=' . $this->session->data['token']));
+LINE: 16
+FILE: admin/controller/payment/eway.php
+CODE: $reason = $this->config->get('text_unknown_failure');
+LINE: 297
+LINE: 353
+CODE: $json['message'] = $this->config->get('text_refund_failed') . $reason;
+LINE: 304
+CODE: $json['message'] = $this->config->get('text_capture_failed') . $reason;
+LINE: 360
+FILE: admin/controller/payment/laybuy.php
+CODE: if (!$this->error) {
+LINE: 1237
+FILE: admin/controller/payment/pp_payflow_iframe.php
+CODE: $this->url->link('payment/pp_payflow', 'token=' . $this->session->data['token'], true)
+LINE: 110
+CODE: this->url->link('payment/pp_payflow_iframe/refund', 'transaction_reference=' . $result['PNREF'] . '&token=' . $this->session->data['token'])
+LINE: 372
+CODE: $this->url->link('payment/pp_payflow_iframe/refund', 'transaction_reference=' . $transaction['transaction_reference'] . '&token=' . $this->session->data['token'])
+LINE: 497
+LINE: 505
+FILE: admin/controller/analytics/google_analytics.php
+CODE: $data['action'] = $this->url->link('analytics/google_analytics', 'token=' . $this->session->data['token'], true);
+LINE: 61
+CODE: $data['google_analytics_code'] = $this->config->get('google_analytics_code');
+LINE: 70
+CODE: $data['google_analytics_status'] = $this->config->get('google_analytics_status');
+LINE: 76
+FILE: admin/view/template/feed/google_base.tpl
+CODE: index.php?route=feed/google_base/addcategory&token=
+LINE: 129
+CODE: index.php?route=feed/google_base/removecategory&token=
+LINE: 167
+FILE: admin/view/template/fraud/ip.tpl
+CODE: index.php?route=fraud/ip/addip&token=
+LINE: 98
+CODE: index.php?route=fraud/ip/removeip&token=
+LINE: 133
+FILE: admin/view/template/marketing/affiliate_form.tpl
+CODE: index.php?route=marketing/affiliate/addtransaction&token=
+LINE: 395
+FILE: admin/view/template/openbay/amazonus_bulk_listing.tpl
+CODE: index.php?route=openbay/amazonus/dobulksearch&token=
+LINE: 195
+FILE: admin/view/template/catalog/filter_form.tpl
+CODE: <?php echo $entry_name ?>
+LINE: 49
+LINE: 61
+LINE: 92
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $manufacturer ?>
+LINE: 326
+FILE: admin/view/template/catalog/recurring_form.tpl
+CODE: <?php echo $text_disabled ?>
+LINE: 129
+LINE: 132
+FILE: admin/view/template/catalog/recurring_list.tpl
+CODE: <?php echo $column_action ?>
+LINE: 48
+CODE: <?php echo $recurring['name'] ?>
+LINE: 60
+CODE: <?php echo $recurring['sort_order'] ?>
+LINE: 61
+FILE: admin/view/template/customer/custom_field_form.tpl
+CODE: <?php echo $entry_validation ?>
+LINE: 124
+CODE: <?php echo $validation ?>
+LINE: 126
+FILE: admin/view/template/customer/customer_form.tpl
+CODE: <?php echo $address_row ?>
+LINE: 1145
+LINE: 1146
+LINE: 1147
+LINE: 1150
+LINE: 1151
+LINE: 1154
+LINE: 1155
+FILE: admin/view/template/extension/modification.tpl
+CODE: <?php echo $log ?>
+LINE: 116
+CODE: <?php echo $button_clear ?>
+LINE: 118
+----------------------------------------------------------------
+MOD: OSWorX - German Translation / Dt. Übersetzung
+----------------------------------------------------------------
+2017-12-28 23:34:13 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 34
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+LINE: 92
+LINE: 104
+LINE: 142
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 35
+LINE: 41
+LINE: 47
+FILE: system/library/template/basic.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+----------------------------------------------------------------
+MOD: Bugs fix Opencart 2.2.0.0
+FILE: catalog/controller/account/address.php
+CODE: !empty($custom_field['validation'] && $custom_field['location'] == 'address'))
+LINE: 521
+FILE: catalog/controller/account/voucher.php
+CODE: sprintf($this->language->get('text_for'), $this->currency->format($this->currency->convert($this->request->post['amount'], $this->session->data['currency'], $this->config->get('config_currency'))), $this->request->post['to_name']),
+LINE: 15
+FILE: catalog/controller/module/amazon_login.php
+CODE: $user = $this->model_payment_amazon_login_pay->getUserInfo($this->request->get['access_token']);
+LINE: 55
+FILE: admin/controller/customer/customer.php
+CODE: !empty($custom_field['validation'] && $custom_field['location'] == 'address'))
+LINE: 1104
+FILE: admin/controller/sale/order.php
+CODE: $this->request->server['HTTPS'] ? HTTPS_CATALOG : HTTP_CATALOG
+LINE: 317
+LINE: 480
+LINE: 569
+CODE: 'name'     => $this->language->get('text_default'),
+LINE: 631
+CODE: str_replace("http", "https", $order_info['store_url'])
+LINE: 849
+FILE: catalog/view/theme/default/template/payment/pp_standard.tpl
+CODE: <input type="hidden" name="no_shipping" value="1" />
+LINE: 39
+FILE: admin/controller/openbay/amazon.php
+CODE: $this->url->link('openbay/amazon/itemlinks', 'token=' . $this->session->data['token'], true),
+LINE: 393
+FILE: admin/controller/openbay/fba.php
+CODE: $this->session->data['token'], 'SSL')
+LINE: 37
+LINE: 41
+LINE: 45
+LINE: 58
+LINE: 60
+LINE: 61
+LINE: 91
+LINE: 96
+LINE: 101
+LINE: 106
+LINE: 110
+LINE: 111
+LINE: 272
+LINE: 277
+LINE: 282
+LINE: 335
+LINE: 340
+LINE: 345
+LINE: 350
+LINE: 379
+LINE: 412
+LINE: 456
+LINE: 496
+LINE: 609
+LINE: 614
+LINE: 619
+LINE: 624
+LINE: 676
+LINE: 720
+LINE: 742
+LINE: 747
+LINE: 752
+LINE: 757
+LINE: 762
+FILE: admin/controller/payment/cardinity.php
+CODE: $this->response->redirect($this->url->link('extension/payment', 'token=' . $this->session->data['token']));
+LINE: 16
+FILE: admin/controller/payment/eway.php
+CODE: $reason = $this->config->get('text_unknown_failure');
+LINE: 297
+LINE: 353
+CODE: $json['message'] = $this->config->get('text_refund_failed') . $reason;
+LINE: 304
+CODE: $json['message'] = $this->config->get('text_capture_failed') . $reason;
+LINE: 360
+FILE: admin/controller/payment/laybuy.php
+CODE: if (!$this->error) {
+LINE: 1237
+FILE: admin/controller/payment/pp_payflow_iframe.php
+CODE: $this->url->link('payment/pp_payflow', 'token=' . $this->session->data['token'], true)
+LINE: 110
+CODE: this->url->link('payment/pp_payflow_iframe/refund', 'transaction_reference=' . $result['PNREF'] . '&token=' . $this->session->data['token'])
+LINE: 372
+CODE: $this->url->link('payment/pp_payflow_iframe/refund', 'transaction_reference=' . $transaction['transaction_reference'] . '&token=' . $this->session->data['token'])
+LINE: 497
+LINE: 505
+FILE: admin/controller/analytics/google_analytics.php
+CODE: $data['action'] = $this->url->link('analytics/google_analytics', 'token=' . $this->session->data['token'], true);
+LINE: 61
+CODE: $data['google_analytics_code'] = $this->config->get('google_analytics_code');
+LINE: 70
+CODE: $data['google_analytics_status'] = $this->config->get('google_analytics_status');
+LINE: 76
+FILE: admin/view/template/feed/google_base.tpl
+CODE: index.php?route=feed/google_base/addcategory&token=
+LINE: 129
+CODE: index.php?route=feed/google_base/removecategory&token=
+LINE: 167
+FILE: admin/view/template/fraud/ip.tpl
+CODE: index.php?route=fraud/ip/addip&token=
+LINE: 98
+CODE: index.php?route=fraud/ip/removeip&token=
+LINE: 133
+FILE: admin/view/template/marketing/affiliate_form.tpl
+CODE: index.php?route=marketing/affiliate/addtransaction&token=
+LINE: 395
+FILE: admin/view/template/openbay/amazonus_bulk_listing.tpl
+CODE: index.php?route=openbay/amazonus/dobulksearch&token=
+LINE: 195
+FILE: admin/view/template/catalog/filter_form.tpl
+CODE: <?php echo $entry_name ?>
+LINE: 49
+LINE: 61
+LINE: 92
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $manufacturer ?>
+LINE: 326
+FILE: admin/view/template/catalog/recurring_form.tpl
+CODE: <?php echo $text_disabled ?>
+LINE: 129
+LINE: 132
+FILE: admin/view/template/catalog/recurring_list.tpl
+CODE: <?php echo $column_action ?>
+LINE: 48
+CODE: <?php echo $recurring['name'] ?>
+LINE: 60
+CODE: <?php echo $recurring['sort_order'] ?>
+LINE: 61
+FILE: admin/view/template/customer/custom_field_form.tpl
+CODE: <?php echo $entry_validation ?>
+LINE: 124
+CODE: <?php echo $validation ?>
+LINE: 126
+FILE: admin/view/template/customer/customer_form.tpl
+CODE: <?php echo $address_row ?>
+LINE: 1145
+LINE: 1146
+LINE: 1147
+LINE: 1150
+LINE: 1151
+LINE: 1154
+LINE: 1155
+FILE: admin/view/template/extension/modification.tpl
+CODE: <?php echo $log ?>
+LINE: 116
+CODE: <?php echo $button_clear ?>
+LINE: 118
+----------------------------------------------------------------
+MOD: OSWorX - German Translation / Dt. Übersetzung
+----------------------------------------------------------------

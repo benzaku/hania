@@ -1,11 +1,13 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://www.ohanila.com/admin/');
-define('HTTP_CATALOG', 'http://www.ohanila.com/');
+define('HTTP_SERVER', 'https://www.ohanila.com/admin/');
+define('HTTP_CATALOG', 'https://www.ohanila.com/');
+define('HTTP_IMAGE', 'https://www.ohanila.com/image/');
 
 // HTTPS
 define('HTTPS_SERVER', 'https://www.ohanila.com/admin/');
 define('HTTPS_CATALOG', 'https://www.ohanila.com/');
+define('HTTPS_IMAGE', 'https://www.ohanila.com/image/');
 
 // DIR
 define('DIR_APPLICATION', '../admin/');
