@@ -7282,6 +7282,7 @@ header, .container {
   position: absolute;
   z-index: 999;
   border-radius: 5px;
+  width: 100%;
 }
 #sys-notification #notification {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);

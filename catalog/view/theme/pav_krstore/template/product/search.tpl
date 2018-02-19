@@ -79,8 +79,12 @@
 				<h2 class="panel-title panel-v2"><?php echo $text_search; ?></h2>
 			</div>
 			<?php if ($products) { ?>
-      <?php   require( ThemeControlHelper::getLayoutPath( 'product/product_filter.tpl' ) );   ?>
-       <?php require( ThemeControlHelper::getLayoutPath( 'common/product_collection.tpl' ) );  ?>
+                <?php require( ThemeControlHelper::getLayoutPath( 'product/product_filter.tpl' ) );   ?>
+                <?php require( ThemeControlHelper::getLayoutPath( 'common/product_collection.tpl' ) );  ?>
+                <div class="paging row">
+					<div class="col-sm-6 text-left space-top-10"><?php echo $results; ?></div>
+					<div class="col-sm-6 text-right"><?php echo $pagination; ?></div>
+				</div>
 			<?php } else { ?>
 				<p class="space-30"><?php echo $text_empty; ?></p>
 			<?php } ?>

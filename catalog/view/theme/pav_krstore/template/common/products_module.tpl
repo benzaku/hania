@@ -5,7 +5,7 @@
     $cols = isset($customcols)? $customcols : 3;
     $span = 12/$cols;
 
-    $id = md5(rand()+time()+$heading_title); 
+    $id = md5(rand()+time()+(int)($heading_title)); 
     $columns_count  = 4;
 
     // Theme Config

@@ -202,8 +202,8 @@
     <script type="text/javascript" src="catalog/view/javascript/gmap/gmap3.infobox.js"></script>
     <script type="text/javascript">
         var mapDiv, map, infobox;
-        var lat = '47.2630929';
-        var lon = '11.3968188';
+        var lat = '47.2630174';
+        var lon = '11.3968801';
         jQuery(document).ready(function($) {
             mapDiv = $("#contact-map");
             mapDiv.height(400).gmap3({
